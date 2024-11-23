@@ -15,7 +15,7 @@ import cors from "cors"
 // Import MongoDB connection function
 import connectDB from "./lib/db.js"; // Default import
 
-
+//hi
 const __dirname = path.resolve();
 
 // Resolve the correct path to the .env file
