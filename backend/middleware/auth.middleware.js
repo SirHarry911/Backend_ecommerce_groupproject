@@ -1,7 +1,7 @@
 import jwt from "jsonwebtoken";
 import User from "../models/user.model.js";
 
-// Middleware to protect routes by verifying the access token
+
 export const protectRoute = async (req, res, next) => {
   try {
     const accessToken = req.cookies.accessToken;
@@ -32,7 +32,7 @@ export const protectRoute = async (req, res, next) => {
   }
 };
 
-// Middleware to allow only admin users
+
 export const adminRoute = (req, res, next) => {
   if (req.user && req.user.role === "admin") {
     next();
@@ -41,7 +41,7 @@ export const adminRoute = (req, res, next) => {
   }
 };
 
-// Middleware to verify the refresh token
+
 export const checkRefreshToken = async (req, res, next) => {
   const refreshToken = req.cookies.refreshToken;
   if (!refreshToken) return res.status(403).json({ message: "Refresh token not found" });
@@ -53,7 +53,7 @@ export const checkRefreshToken = async (req, res, next) => {
   next();
 };
 
-// Middleware to verify the access token for API routes
+
 export const verifyToken = async (req, res, next) => {
   try {
     const token = req.headers["authorization"];
