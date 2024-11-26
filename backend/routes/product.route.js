@@ -7,6 +7,7 @@ import {
 	deleteProduct,
 	getProductsByCategory,
 } from "../controllers/product.controller.js";
+//commit
 
 const router = express.Router();
 
