@@ -6,6 +6,6 @@
 -    E-Commerce Store
 -    Product & Category Management
 -    Shopping Cart Functionality
--    Cart 
+-    Cart & Coupon
 -    Security
 -    Data Protection

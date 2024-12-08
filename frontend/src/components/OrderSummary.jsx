@@ -8,7 +8,7 @@ import { loadStripe } from "@stripe/stripe-js";
 // 	"pk_test_51KZYccCoOZF2UhtOwdXQl3vcizup20zqKqT9hVUIsVzsdBrhqbUI2fE0ZdEVLdZfeHjeyFXtqaNsyCJCmZWnjNZa00PzMAjlcL"
 // );
 const stripePromise = loadStripe(
-	"pk_test_51KZYccCoOZF2UhtOwdXQl3vcizup20zqKqT9hVUIsVzsdBrhqbUI2fE0ZdEVLdZfeHjeyFXtqaNsyCJCmZWnjNZa00PzMAjlcL"
+	"pk_test_51QMlgjKaj0hyHnIBFiHSKTSWlUxtmLr827wF0dE7N1bS3mnkM8HEzYOfiTDQL0NtHsID0TCiUsxPeXIPvefjT2Xy00if8sYEm5"
 );
 const OrderSummary = () => {
 	const { total, subtotal, coupon, isCouponApplied, cart } = useCartStore();
