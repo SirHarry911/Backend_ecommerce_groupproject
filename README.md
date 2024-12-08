@@ -1,11 +1,1 @@
--    Project Setup
--    MongoDB & Redis Integration
--    Robust Authentication System
--   JWT with Refresh/Access Tokens
--    User Signup & Login
--    E-Commerce Store
--    Product & Category Management
--    Shopping Cart Functionality
--    Cart & Coupon
--    Security
--    Data Protection
+s
